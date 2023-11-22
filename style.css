@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Mono';
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(5, 17, 69);
+    padding: 20px;
+}
+
+.col-2 {
+    width: 45vw;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.col-1 {
+    width: 55vw;
+    background: url(img/half-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+    color: #ececec;
+    background-color: rgb(5, 17, 69);
+    padding: 2rem;
+    border: 1px solid white;
+    width: 100%;
+}
+
+.form h1 {
+    font-family: 'Metal Mania';
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 4rem;
+}
+
+.form h2 {
+    font-family: 'Iceberg';
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form > p {
+    font-family: 'Iceberg';
+    font-size: 1.1rem;
+    text-align: center;
+    margin-top: 5%;
+    letter-spacing: .08rem;
+}
+
+.form ul {
+    margin: 3rem 1rem 0;
+    font-size: .9rem;
+}
+
+.form ul > li {
+    margin-top: 20px;
+    letter-spacing: .02rem;
+    list-style-image: url(img/checked.png);
+}
+
+.form form .label-container {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: .9rem;
+}
+
+.form form > label {
+    width: 100%;
+}
+
+.form form {
+    margin-top: 20px;
+}
+
+.form form > input {
+    display: block;
+    width: 100%;
+    margin-top: 12px;
+    padding: 12px 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(178, 216, 242);
+    transition: .3s;
+}
+
+.form form > button {
+    display: block;
+    width: 100%;
+    border-radius: 5px;
+    padding: 12px 10px;
+    margin-top: 10px;
+    border: none;
+    color: #ececec;
+    background-color: rgb(40, 131, 217);
+    transition: 0.3s;
+}
+
+.form form > button:hover {
+    cursor: pointer;
+    display: block;
+    background-color: rgb(14, 75, 132);
+}
+
+.text-error {
+    color:rgb(242, 124, 124);
+}
+
+.error-input {
+    background-color: rgb(242, 124, 124)!important;
+}
+
+.visibility-hide {
+    opacity: 0;
+}
+
+.visibility-show {
+    opacity: 1;
+}
